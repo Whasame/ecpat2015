@@ -93,6 +93,8 @@ class MyApp < Sinatra::Base
 			erb :victim
 		elsif @questions=="NotVictim"
 			erb :notVictim
+		else
+			erb :nothing
 		end
 
 	end
