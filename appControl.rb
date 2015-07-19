@@ -54,6 +54,7 @@ class MyApp < Sinatra::Base
 			erb :notVictim
 		else
 			next
+			#ss
 		end
 
 	end
