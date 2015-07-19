@@ -33,7 +33,7 @@ class MyApp < Sinatra::Base
 			
 			"Are you performing any sex acts?" => {:next_q =>["Victim", "NotVictim"], :remove => []},
 			
-			"Do you have a boyfreind or girlfreind?" => {:next_q => ["Does he/she engage in sexual acts with you?", "Are you participating in any sex acts?"], :remove => []},
+			"Do you have a boyfriend or girlfriend?" => {:next_q => ["Does he/she engage in sexual acts with you?", "Are you participating in any sex acts?"], :remove => []},
 			
 			"Are you trading sex acts for anything of monetary value?" => {:next_q => ["Victim", "Are you being forced to perform any sex acts?"], :remove => []},
 			
