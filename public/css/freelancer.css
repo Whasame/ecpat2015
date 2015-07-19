@@ -768,11 +768,10 @@ footer .footer-below {
 	text-align: center;
 }
 #needSpaceBottom {
-	padding-bottom: 50px;
+	height: 500px;
 }
 .needBottomSpace {
-	padding-bottom: 260px;
-	background-color: white;
+	padding-bottom: 190px;
 }
 .noDecor {
 	text-decoration: none;

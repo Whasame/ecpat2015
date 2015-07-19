@@ -57,8 +57,4 @@ class MyApp < Sinatra::Base
 		end
 
 	end
-	
-	get '/victim' do
-		erb :victim
-	end
 end
