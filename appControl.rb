@@ -11,7 +11,7 @@ class MyApp < Sinatra::Base
 	
 	get '/questions' do
 		@qnum = 1
- 		@questions = "Do you want to avoid using your brain?"
+		@questions = "Are you under 18 years of age? (Please answer truthfuly)"
 		erb :questions
 		
 	end
@@ -28,9 +28,9 @@ class MyApp < Sinatra::Base
 		end
 
 		map={
-			"Do you want to avoid using your brain?" => {:next_q => ["Are your reflexes amazing?", "Maximum Creativity?"], :remove => []},
+			"Are you under 18 years of age? (Please answer truthfuly)" => {:next_q => ["Are you being forced to do anything at all?", "Are you trading sex for anything of monetary value?"], :remove => []},
 			
-			"Are your reflexes amazing?" => {:next_q => ["Are you on drugs?", "Do you want to point and click click click...?"], :remove => []},
+			"Are you being forced to do anything at all?" => {:next_q => ["r", "Do you want to point and click click click...?"], :remove => []},
 			
 			"Are you on drugs?" => {:next_q =>["rez", "Do you want to feel like you are?"], :remove => []},
 			
@@ -48,9 +48,8 @@ class MyApp < Sinatra::Base
 			
 			"Do you plan on playing for the next week straight?" => {:next_q => ["wow", "diablo"], :remove => []},
 			
-			"Maximum Creativity?" => {:next_q => ["minecraft", "Do you want to solve some puzzles?"], :remove => []},
+			"Are you trading sex for anything of monetary value?" => {:next_q => ["minecraft", "Do you want to solve some puzzles?"], :remove => []},
 			
-			#DO YOU ENJOY SIMULATIONS
 			"Do you want to solve some puzzles?" => {:next_q => ["Do you feel the need for a storyline as well?", "Do you enjoy simulations?"], :remove => []},
 			
 			"Do you feel the need for a storyline as well?" => {:next_q => ["Are you an Edward Gorey fan?", "Kick it oldschool?"], :remove => []},
@@ -84,7 +83,6 @@ class MyApp < Sinatra::Base
 			"Do you want to tear out your opponent's spine?" => {:next_q => ["mortal_kombat", "unkown"], :remove => []},
 			}
 		
-		@results = map[curr_question][:next_q][@ans_value].upcase
 		@questions = map[curr_question][:next_q][@ans_value]
 
 		if @questions.include? '?'
