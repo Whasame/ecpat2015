@@ -777,3 +777,9 @@ footer .footer-below {
 .noDecor {
 	text-decoration: none;
 }
+.cropCircle {
+	margin-top: -40px;
+	border-radius: 50%;
+	width: 240px;
+	height: 240px;
+}
