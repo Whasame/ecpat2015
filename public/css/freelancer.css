@@ -686,17 +686,9 @@ footer .footer-below {
 	height: 300px;
 	transform: scale(2/3);
 }
-.needSpace {
-	height: 200px;
-}
 .needFormat {
 	height: 260px;
-	width: 360px;
-<<<<<<< HEAD
 }
-=======
-=======
->>>>>>> pablo-branch
 
 .flipper-container {
   text-align: center;
@@ -772,17 +764,6 @@ footer .footer-below {
 .row .img-responsive{
 	position: relative;
 }
-<<<<<<< HEAD
-=======
->>>>>>> 04d6e6a295eac40a95effce5d3c5c757a993d502
->>>>>>> fdbcf6fc03c9802fb552eb32b8da065196dde112
-=======
-}
->>>>>>> 5c7bc818dfb8b43421d56e6fbc74f7f5c3a6b90e
-=======
-.needSpace {
-	height: 360px;
-}
 .needFormat {
 	height: 245px;
 	width: 360px;
@@ -792,4 +773,11 @@ footer .footer-below {
 }
 #needSpaceBottom {
 	padding-bottom: 50px;
+}
+.needBottomSpace {
+	padding-bottom: 300px;
+	background-color: white;
+}
+.noDecor {
+	text-decoration: none;
 }
