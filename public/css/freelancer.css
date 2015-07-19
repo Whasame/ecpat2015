@@ -679,15 +679,11 @@ footer .footer-below {
     transform: scale(1.4);
   }
 }
-<<<<<<< HEAD
 .qlogo {
 	border-radius: 50%;
 	width: 300px;
 	height: 300px;
 	transform: scale(2/3);
-}
-.needFormat {
-	height: 260px;
 }
 
 .flipper-container {
@@ -765,7 +761,7 @@ footer .footer-below {
 	position: relative;
 }
 .needFormat {
-	height: 245px;
+	height: 260px;
 	width: 360px;
 }
 .centerText {
@@ -775,7 +771,7 @@ footer .footer-below {
 	padding-bottom: 50px;
 }
 .needBottomSpace {
-	padding-bottom: 300px;
+	padding-bottom: 260px;
 	background-color: white;
 }
 .noDecor {
