@@ -767,6 +767,9 @@ footer .footer-below {
 .centerText {
 	text-align: center;
 }
+#needSpaceBottom {
+	padding-bottom: 50px;
+}
 .needBottomSpace {
 	padding-bottom: 190px;
 }
