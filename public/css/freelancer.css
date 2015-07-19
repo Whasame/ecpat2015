@@ -768,7 +768,7 @@ footer .footer-below {
 	text-align: center;
 }
 #needSpaceBottom {
-	height: 500px;
+	padding-bottom: 200px;
 }
 .needBottomSpace {
 	padding-bottom: 190px;
