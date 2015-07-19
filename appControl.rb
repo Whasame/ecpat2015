@@ -29,7 +29,7 @@ class MyApp < Sinatra::Base
 		map={
 			"Are you under 18 years of age? (Please answer truthfuly)" => {:next_q => ["Are you being forced to do anything?", "Are you trading sex acts for anything of monetary value?"], :remove => []},
 			
-			"Are you being forced to do anything?" => {:next_q => ["Are you performing any sex acts?", "Do you have a boyfreind or girlfreind?"], :remove => []},
+			"Are you being forced to do anything?" => {:next_q => ["Are you performing any sex acts?", "Do you have a boyfriend or girlfriend?"], :remove => []},
 			
 			"Are you performing any sex acts?" => {:next_q =>["Victim", "NotVictim"], :remove => []},
 			
